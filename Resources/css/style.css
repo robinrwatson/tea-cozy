@@ -1,0 +1,121 @@
+body{
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    font-size: 22px;
+    text-align: center;
+}
+/* Header */
+header{
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.logo{
+    height: 50px;
+}
+a{
+    color: seashell;
+    text-decoration: underline;
+}
+header nav{
+    flex-direction: row;
+    flex-grow: 1;
+    text-align: right;
+    padding-right: 30px;
+}
+nav span{
+    display: inline-block;
+    padding: 10px 20px;
+}
+/* Main */
+.main{
+    padding-top: 70px;
+    width: 1200px;
+    margin: auto;
+}
+/* Mission */
+#mission {
+    background-image: url('../Images/img-mission-background.jpg');
+    height: 700px;
+}
+#mission .content{
+    background-color: black;
+    width: 100%;
+    margin: auto;
+}
+h2 h3 h4{
+    margin: 0px;
+    padding: 10px;
+}
+h2{
+    display: block;
+}
+/* Tea of the Month */
+.tea{
+    width: 1000px;
+    height: 700px;
+    padding-top: 70px;
+    margin: auto;
+}
+.item{
+    padding: 5px;
+}
+.item img{
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
+.item span{
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+/* Locations */
+#locations{
+    background-image: url('../Images/img-locations-background.jpg');
+      height: 500px;
+    padding-top: 70px;
+}
+#locations .container{
+    margin: auto;
+    width: 1100px;
+}
+.location{
+    opacity: 1;
+    display: flex;
+    flex-basis: 280px;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    margin: 5px 20px;
+    padding: 10px;
+}
+.address{
+    display: block;
+    padding: 20px;
+}
+/* Contact */
+.contact{
+    height: 200px;
+}
+.contact h5{
+    display: block;
+    font-weight: bold;
+}
+/* Footer */
+footer{
+    padding-left: 20px;
+    text-align: left;
+}
